@@ -8,6 +8,7 @@ import { SearchComponent } from './components/search/search.component';
 import { GithubComponent } from './components/github/github.component';
 import { UserComponent } from './components/user/user.component';
 import { RepoComponent } from './components/repo/repo.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RepoComponent } from './components/repo/repo.component';
     SearchComponent,
     GithubComponent,
     UserComponent,
-    RepoComponent
+    RepoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

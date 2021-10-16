@@ -10,6 +10,7 @@ import { GithubComponent } from './components/github/github.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
+import { TimeagoPipe } from './pipes/timeago.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     GithubComponent,
     FooterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    TimeagoPipe
   ],
   imports: [
     BrowserModule,

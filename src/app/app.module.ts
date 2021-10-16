@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
 import { TimeagoPipe } from './pipes/timeago.pipe';
+import { UndelineDirective } from './directives/undeline.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TimeagoPipe } from './pipes/timeago.pipe';
     GithubComponent,
     FooterComponent,
     NotFoundComponent,
-    TimeagoPipe
+    TimeagoPipe,
+    UndelineDirective
   ],
   imports: [
     BrowserModule,

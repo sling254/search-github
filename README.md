@@ -1,6 +1,46 @@
 # SearchGithub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+ This is a website that users the Github API to search through all users registered with github using the username and display the repositories they have and also give a summary of who they are.
+#### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+
+### Check out the website :stars:
+https://sling254.github.io/search-github/
+# Website Design :link:
+* see [Website Design](https://www.figma.com/file/zoQXBXPGwYNsRHikx1WjrC/Search-github?node-id=0%3A1) file
+
+# Permissions
+- Internet
+# Task lists
+- [x] Implement the design 
+- [x] The application makes a HTTP service that uses a promise to make the requests to the GitHub API.
+- [X] The application  HTTP request search for both GitHub users and GitHub repositories.
+
+# Technologies used.
+- Typescript
+- Bootstrap -- version 5.1.1
+- Google Fonts
+- Angular js
+
+## Setup/Installation Requirements
+
+* Clone the repository and modify the files according to your requirement.
+* I highly recommend to use Github Pages to deploy the website the EASIEST WAY.
+* To deploy your website, first you need to create github repository with name <your-github-username>.github.io/
+* Push the generated code to the master branch of this repository.
+
+## Known Bugs
+
+The project has no known bugs as the debugging process was quite thorough.
+
+
+# Developer or Author Name
+- Muriithi Mwaniki
+- Github -- Sling254
+
+## License :link:
+* see [LICENSE](https://github.com/sling254/search-github/blob/main/LICENSE) file
+
+
 
 ## Development server
 

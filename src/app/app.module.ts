@@ -12,6 +12,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
 import { TimeagoPipe } from './pipes/timeago.pipe';
 import { UndelineDirective } from './directives/undeline.directive';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { UndelineDirective } from './directives/undeline.directive';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

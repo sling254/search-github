@@ -8,14 +8,19 @@ import{Userdata} from '../../intefaces/userdata';
 })
 export class UsersService {
   private baseUrl = environment.BASE_URL;
+  private token = environment.ACCESS_TOKEN;
   
 
   constructor(private http:HttpClient) { }
+  httpHeaders = new HttpHeaders({
+    'Authorization':this.token
+    
+  });
 
   async getUsers(username:String) {
     
     const endpoint = 'users'
-    const users =  await this.http.get<Userdata>(`${this.baseUrl}${endpoint}/${username}`, {}).toPromise();
+    const users =  await this.http.get<Userdata>(`${this.baseUrl}${endpoint}/${username}`, {headers:this.httpHeaders}).toPromise();
 
     return users;
   }
